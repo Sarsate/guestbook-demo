@@ -1,17 +1,17 @@
-body {
-    font-family: sans-serif;
+label {
+    display: inline-block;
+    width: 150px;
 }
 
-form {
-    margin-bottom: 1em;
+input, textarea {
+    width: 300px;
 }
 
-table, th, td {
-    border: 1px solid black;
-    text-align: center;
+input {
+    display: inline-block;
 }
 
-table {
-    width: 600px;
+textarea {
+    vertical-align: middle;
 }
 
